@@ -1,0 +1,41 @@
+|Bob|
+|Al|
+|Yen|
+
+|Al|
+'' Marks the start
+start
+
+:Starting Line;
+
+'' The Dianmond starts
+if (Left / Right) then (Note Left)
+
+
+|Bob|
+:Finish;
+
+'' Detach is to stop the line
+detach
+
+else (Note Right)
+
+|Yen|
+:Finish;
+
+'' Marks the end
+End
+
+''Diamond Styles
+skinparam Activity {
+   DiamondBackgroundColor red
+   DiamondBorderColor blue
+   DiamondFontName Verdana
+   DiamondFontSize 14
+   DiamondFontColor yellow
+}
+
+
+skinparam Shadowing false
+
+

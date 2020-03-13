@@ -1,9 +1,11 @@
 # Project AIM
-This is a flow on how a Risk is created.
 
-This is a flow on how a Risk is created. AA
+This is a flow on how a Risk is created. 
 
 ## Actors
+
+[this one](2.md)
+
 
 
 User | Designation               | User Group    | Company Name  | Country
@@ -17,9 +19,91 @@ Lyn  | Associate, Audit          | Contributor   | Forge Finance | Singapore
 
 ### Risk Creation Overview AA
 
-![](https://www.plantuml.com/plantuml/svg/XP9RRzf048MVmw_ON5wh0gRc4lN1yOLO9IOoH8YdQcDFx2rcJNONB5hwtxiN2CQALFo2lprpvinuh-yU9Yy--evkRjkMvVQjczRrNHXvuNYgeMrtsa5NmUUN-7bYb7RGwxeT3SFeXqR-mF87haAnxsdYzZjkLrTEOoSQcyh0w_kTde9BVpAPBZJql6zskwtWEFRzIBE-vGoieM9ptvber6sxms5V8NVf65KtS7g-Hel7S7vi4GJ6obd-z9pOnBDwbjDhdxX60tlW3sqzH1m-EV6ouJZptMdadRW_z5rV6yzUNDUVpHefmoYODhQuSE8eZCQD4JsrYxYneKauVfoRz8DW63X6sCZUuYj2DvZXDU8vJikAq0ozuO93xQHYUBCWgSXHPz2-A87tBT04q9_MbSDOMRbbKJBa0Mncg_r3iOMhrjzwWPC8iYDYBmkG_3sKB0LcYlITgT5vJf8L1SvHHzEWf696VWFgs1_lfZ9Zi3U5E5bbhDpIr1mK9Ck5kyVqCWIloBh053u9eIi-_EP4573kOsxrvObEr6rhMEaLSRm6rQzrk9LRbyy1JSe45-WHS8eE2jk16mG751E-Ga-OuWoOEJZgzS6qeYTyrBko7oElMr4gBXjS6e_25AWWRmGu4ZaWfbnAxV85EPoJZFBBdg942GCiGElLqRssRGGRkLfaN35D4OECSA4CZcKef6ybMsD1Iee8hVETp5Io_VrdldESyRDMfb7_JMAHOu4gp14v3PMYrxqMd8S-cvwMDOfXHw0wHjKpoq8jKS4LeVMU7XIGoTcqq-L-Ho7TR8NHKaY0OoRxOrb41Apb3jwtX9rJnUTjgquSQChHgxoGI6v6gbMi_-GbjILkMBcJet_OrxFfIP84DW9zbSw_815Qa-IOPi1bbz5CjrVmZL32yzCIwYrqkEFIzU7w-6K-2rpxQgV8vp6Rdx1sBPMNZ21VyKRDX8lxVm00)
 
 
+```plantuml
+
+|#F9F9F9| Local Head |
+|#F6FCFF| Risk Manager |
+|#F9F9F9| Risk Owner |
+|#F6FCFF| Contributor |
+
+
+| Local Head |
+:Identifies the <b>Risk Owner</b> - Assigns Risk Manager to create the Risk;
+
+
+| Risk Manager |
+:Creates the and register the Risk Information in the Risk Inventory;
+
+| Risk Manager |
+:Tags the Risk to the owner that was identified by the Local Head;
+
+| Risk Owner |
+:Reviews the assigned Risk and assings the Risk Delegate;
+
+| Contributor |
+:Inputs the necesary task item required by the Risk owner and sends back for review;
+
+| Risk Owner |
+:Reviews the information provided by the Contributor and accept / reject the changes;
+
+:Sends the finished Risk information back to the Risk manager for review;
+
+| Risk Manager |
+:Reviews and sends the Risk to the Local Head for final approval;
+
+
+'' Styles Here **************************************
+
+!$BLUE = "#033C73"
+!$INDIGO = "#6610F2"
+!$PURPLE = "#6F42C1"
+!$PINK = "#E83E8C"
+!$RED = "#C71C22"
+!$ORANGE = "#FD7E14"
+!$YELLOW = "#DD5600"
+!$GREEN = "#73A839"
+!$TEAL = "#20C997"
+!$CYAN = "#2FA4E7"
+!$WHITE = "#FFF"
+!$GRAY_DARK = "#343A40"
+!$GRAY = "#868E96"
+!$PRIMARY = "#2FA4E7"
+!$SECONDARY = "#E9ECEF"
+!$SUCCESS = "#73A839"
+!$INFO = "#033C73"
+!$WARNING = "#DD5600"
+!$DANGER = "#C71C22"
+!$LIGHT = "#F8F9FA"
+!$DARK = "#343A40"
+
+skinparam shadowing false
+skinparam wrapWidth 180
+skinparam defaultFontName "Verdana"
+skinparam sequence {
+	ArrowColor DeepSkyBlue	
+}
+
+skinparam Activity {
+    BorderColor $BLUE
+    BorderThickness 1
+    FontSize 16
+    font courier
+    FontColor $DARK
+    BackgroundColor lightCyan
+}
+
+skinparam swimlane {
+    BorderColor $CYAN
+    BorderThickness .5
+    TitleFontColor $BLUE 
+    TitleFontSize 20
+    width same
+}
+
+
+```
 
 ---
 

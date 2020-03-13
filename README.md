@@ -17,69 +17,9 @@ Lyn  | Associate, Audit          | Contributor   | Forge Finance | Singapore
 
 ### Risk Creation Overview AA
 
-![](https://www.plantuml.com/plantuml/svg/XLD1Rjj03BplA_Y18dVv52I766XHmEa7Q8cMM5jSTRcEOS2F3vUo9HasqEDIm-5mXj8zou09Uz0EctXYQM671wKGBl0prdY03y86BlRSiExX5mgsbER2xvDSdszHSkBjCSVoVY2erWr9vXsJGiWTGIhjqTj_X5TLRaNlXeGSeKw4cQ3WowTLU1HImPk3T491G6aWKSkQ3N8hXxNiOkenSnHWMS0t3ardew_WawIPkOArmEimfFXbkwmUrxf-jF4liA6_L6SD4xFBjt6hy4pu7smNecrRRnmjoHrcEA46ljdMmFRiQ9yVolpPZbiCrOQ-c4uZBRgfr0I754zAHSQXO_6T3jIQUSvqds2rbk6OHoQXcXJJsHIYTN6ctlpzT-JaikQ5H_5bb1ORmnRhFHGBa-lwZs2U0mh5LDjzsdeXpkF5kgOXc-d9JNTCtQ6qf2N6ESKT2sjdHEF6YndWwiptoOx-6iupnOlWRfgdFMU6aMrn8tv0fi6UU3sZrPE_u-6Ad5AFsvujCxkWRm00)
-
-```plantuml
-skinparam shadowing false
-skinparam ActivityBorderColor blue
+![](https://www.plantuml.com/plantuml/svg/XP9RRzf048MVmw_ON5wh0gRc4lN1yOLO9IOoH8YdQcDFx2rcJNONB5hwtxiN2CQALFo2lprpvinuh-yU9Yy--evkRjkMvVQjczRrNHXvuNYgeMrtsa5NmUUN-7bYb7RGwxeT3SFeXqR-mF87haAnxsdYzZjkLrTEOoSQcyh0w_kTde9BVpAPBZJql6zskwtWEFRzIBE-vGoieM9ptvber6sxms5V8NVf65KtS7g-Hel7S7vi4GJ6obd-z9pOnBDwbjDhdxX60tlW3sqzH1m-EV6ouJZptMdadRW_z5rV6yzUNDUVpHefmoYODhQuSE8eZCQD4JsrYxYneKauVfoRz8DW63X6sCZUuYj2DvZXDU8vJikAq0ozuO93xQHYUBCWgSXHPz2-A87tBT04q9_MbSDOMRbbKJBa0Mncg_r3iOMhrjzwWPC8iYDYBmkG_3sKB0LcYlITgT5vJf8L1SvHHzEWf696VWFgs1_lfZ9Zi3U5E5bbhDpIr1mK9Ck5kyVqCWIloBh053u9eIi-_EP4573kOsxrvObEr6rhMEaLSRm6rQzrk9LRbyy1JSe45-WHS8eE2jk16mG751E-Ga-OuWoOEJZgzS6qeYTyrBko7oElMr4gBXjS6e_25AWWRmGu4ZaWfbnAxV85EPoJZFBBdg942GCiGElLqRssRGGRkLfaN35D4OECSA4CZcKef6ybMsD1Iee8hVETp5Io_VrdldESyRDMfb7_JMAHOu4gp14v3PMYrxqMd8S-cvwMDOfXHw0wHjKpoq8jKS4LeVMU7XIGoTcqq-L-Ho7TR8NHKaY0OoRxOrb41Apb3jwtX9rJnUTjgquSQChHgxoGI6v6gbMi_-GbjILkMBcJet_OrxFfIP84DW9zbSw_815Qa-IOPi1bbz5CjrVmZL32yzCIwYrqkEFIzU7w-6K-2rpxQgV8vp6Rdx1sBPMNZ21VyKRDX8lxVm00)
 
 
-
-| Local Head |
-| Risk Manager |
-| Risk Owner |
-| Contributor |
-
-
-| Local Head |
-:Identifies 
-the risk owner -
-Assigns Risk Manager
-to create the Risk;
-
-| Risk Manager |
-: Creates the Risk 
-and register the Risk
-Information in the Risk 
-Inventory;
-
-
-
-
-| Risk Manager |
-:Tags the Risk to 
-the owner that was
-identified by the Local
-Head;
-
-| Risk Owner |
-:Reviews the assigned
-Risk and assings the
-Risk Delegate;
-
-| Contributor |
-:Inputs the necesary 
-task item required by
-the Risk owner and sends
-back for review;
-
-| Risk Owner |
-:Reviews the information
-provided by the Contributor
-and accept / reject the changes;
-
-:Sends the finished 
-Risk information back to the
-Risk manager for review;
-
-| Risk Manager |
-:Reviews and sends the
-Risk to the Local Head
-for final approval;
-
-
-
-```
 
 ---
 

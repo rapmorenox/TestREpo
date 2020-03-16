@@ -1,3 +1,5 @@
+@startuml
+
 |Bob|
 |Al|
 |Yen|
@@ -32,10 +34,14 @@ skinparam Activity {
    DiamondBorderColor blue
    DiamondFontName Verdana
    DiamondFontSize 14
-   DiamondFontColor yellow
+a1z  cvb nm, ,  m,m,
+  
+  
+  '
+  0op[0]   DiamondFontColor yellowwefwx    ew
 }
 
-
 skinparam Shadowing false
+@enduml
 
 

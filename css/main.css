@@ -6,8 +6,8 @@
 [ FONT ]*/
 
 @font-face {
-  font-family:bmwtypewebbo_all;
-  src: url('../fonts/bmw/bmwtypewebbo_all.ttf'); 
+  font-family: BMW;
+  src: url('../fonts/poppins/bmwtypewebbo_all.woff'); 
 }
 
 
@@ -62,7 +62,7 @@
 
 body, html {
 	height: 100%;
-	font-family: bmwtypewebbo_all, sans-serif;
+	font-family: BMW, sans-serif;
 }
 
 /*---------------------------------------------*/
@@ -93,7 +93,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 p {
-	font-family: bmwtypewebbo_all;
+	font-family: Poppins-Regular;
 	font-size: 14px;
 	line-height: 1.7;
 	color: #666666;
@@ -159,7 +159,7 @@ iframe {
 /*//////////////////////////////////////////////////////////////////
 [ Utility ]*/
 .txt1 {
-  font-family: bmwtypewebbo_all;
+  font-family: Raleway-Regular;
   font-size: 16px;
   color: #999999;
   line-height: 1.4;
@@ -360,7 +360,7 @@ iframe {
 }
 
 .label-checkbox100 {
-  font-family: bmwtypewebbo_all;
+  font-family: Raleway-Regular;
   font-size: 16px;
   color: #999999;
   line-height: 1.2;

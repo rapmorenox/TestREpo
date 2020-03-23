@@ -241,6 +241,7 @@ iframe {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  height: 400px;
 }
 
 .login100-form-title {

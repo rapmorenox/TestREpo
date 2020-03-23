@@ -62,12 +62,12 @@
 
 body, html {
 	height: 100%;
-	font-family: Poppins-Regular, sans-serif;
+	font-family: BMW, sans-serif;
 }
 
 /*---------------------------------------------*/
 a {
-	font-family: Poppins-Regular;
+	font-family: BMW;
 	font-size: 14px;
 	line-height: 1.7;
 	color: #666666;
@@ -93,7 +93,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 p {
-	font-family: Poppins-Regular;
+	font-family: BMW;
 	font-size: 14px;
 	line-height: 1.7;
 	color: #666666;
@@ -159,7 +159,7 @@ iframe {
 /*//////////////////////////////////////////////////////////////////
 [ Utility ]*/
 .txt1 {
-  font-family: Raleway-Regular;
+  font-family: BMW;
   font-size: 16px;
   color: #999999;
   line-height: 1.4;
@@ -360,7 +360,7 @@ iframe {
 }
 
 .label-checkbox100 {
-  font-family: Raleway-Regular;
+  font-family: BMW;
   font-size: 16px;
   color: #999999;
   line-height: 1.2;

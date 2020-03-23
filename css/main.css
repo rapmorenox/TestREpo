@@ -6,9 +6,17 @@
 [ FONT ]*/
 
 @font-face {
+  font-family: BMW;
+  src: url('../fonts/poppins/bmwtypewebbo_all.woff'); 
+}
+
+
+@font-face {
   font-family: Poppins-Regular;
   src: url('../fonts/poppins/Poppins-Regular.ttf'); 
 }
+
+
 
 @font-face {
   font-family: Poppins-Bold;
@@ -121,14 +129,13 @@ input:focus:-ms-input-placeholder { color:transparent; }
 textarea:focus::-webkit-input-placeholder { color:transparent; }
 textarea:focus:-moz-placeholder { color:transparent; }
 textarea:focus::-moz-placeholder { color:transparent; }
-textarea:focus:-ms-input-placeholder { color:transparent; }
+textarea:focus:-ms-input-placeholder { color:transparent; } */
 
-input::-webkit-input-placeholder { color: #acacac; }
-input:-moz-placeholder { color: #acacac; }
-input::-moz-placeholder { color: #acacac; }
-input:-ms-input-placeholder { color: #acacac; }
+input::-webkit-input-placeholder { color: var(--color-font-field-colour); }
+input::-moz-placeholder { color:var(--color-font-field-colour); }
+input:-ms-input-placeholder { color:var(--color-font-field-colour); }
 
-textarea::-webkit-input-placeholder { color: #acacac; }
+/* textarea::-webkit-input-placeholder { color: #acacac; }
 textarea:-moz-placeholder { color: #acacac; }
 textarea::-moz-placeholder { color: #acacac; }
 textarea:-ms-input-placeholder { color: #acacac; } */
@@ -244,7 +251,7 @@ iframe {
   font-size: var(--font-header-text-font-size);
   line-height: var(--font-header-text-line-height);
   text-align: var(--font-header-text-text-align);
-  color: var(--font-header-text-color);
+  color: var(--color-header-font-colour);
   font-style: var(--font-header-text-font-style);
   font-weight: var(--font-header-text-font-weight);
   font-family: var(--font-header-text-font-family);
@@ -292,7 +299,7 @@ iframe {
   width: 100%;
   height: 100%;
   box-shadow: 0px 0px 0px 0px;
-  color:var(--color-bmw-logo-blue);
+  color:lightblue;
 }
 
 .input100:focus + .focus-input100 {
@@ -415,7 +422,7 @@ iframe {
   font-size: var(--font-btn-text-font-size);
   line-height: var(--font-btn-text-line-height);
   text-align: var(--font-btn-text-text-align);
-  color: var(--font-btn-text-color);
+  color: var(--color-button-text);
   text-transform: var(--font-btn-text-text-transform);
   font-style: var(--font-btn-text-font-style);
   font-weight: var(--font-btn-text-font-weight);

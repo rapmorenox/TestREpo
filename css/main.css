@@ -228,7 +228,7 @@ iframe {
 
 .wrap-login100 {
   width: 400px;
-  background: var(--color-form-back);
+  background: var(--color-form-background);
   border-radius: 3px;
   overflow: hidden;
 }
@@ -260,7 +260,7 @@ iframe {
   font-size: var(--font-header-text-font-size);
   line-height: var(--font-header-text-line-height);
   text-align: var(--font-header-text-text-align);
-  color: var(--color-header-font-colour);
+  color: var(--color-font-colour-header);
   font-style: var(--font-header-text-font-style);
   font-weight: var(--font-header-text-font-weight);
   font-family: var(--font-header-text-font-family);
@@ -431,7 +431,7 @@ iframe {
   font-size: var(--font-btn-text-font-size);
   line-height: var(--font-btn-text-line-height);
   text-align: var(--font-btn-text-text-align);
-  color: var(--color-button-text);
+  color: var(--color-font-colour-button);
   text-transform: var(--font-btn-text-text-transform);
   font-style: var(--font-btn-text-font-style);
   font-weight: var(--font-btn-text-font-weight);
